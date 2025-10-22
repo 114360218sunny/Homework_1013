@@ -5,7 +5,7 @@ int main(void) {
 
     printf("number\tsquare\tcube\n");
 
-    // ±q 0 ¨ì 10 ¦C¥X¥­¤è»P¥ß¤è
+    // å¾ž 0 åˆ° 10 åˆ—å‡ºå¹³æ–¹èˆ‡ç«‹æ–¹
     for (i = 0; i <= 10; i++) {
         printf("%d\t%d\t%d\n", i, i * i, i * i * i);
     }
