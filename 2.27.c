@@ -5,12 +5,12 @@ int main(void) {
     int height = 5;
 
     for (i = 0; i < height; i++) {
-        // ªÅ®æ
+        // ç©ºæ ¼
         for (space = 0; space < height - i - 1; space++) {
             printf(" ");
         }
 
-        // ¦L¬P¸¹
+        // æ˜Ÿæ˜Ÿ
         for (j = 0; j < 2 * i + 1; j++) {
             printf("*");
         }
